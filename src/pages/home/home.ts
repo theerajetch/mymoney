@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { SQLite, SQLiteObject } from '@ionic-native/sqlite/ngx';
 import { AdddataPage } from '../adddata/adddata';
 import { AddeditdataPage } from '../addeditdata/addeditdata';
+import { Toast } from '@ionic-native/toast/ngx';
 
 @Component({
   selector: 'page-home',
